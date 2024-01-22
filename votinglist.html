@@ -1,0 +1,39 @@
+<html><head><title>a7</title>
+<style>
+.container{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+</style></head>
+<body bgcolor="grey">
+<div class="container">
+<h4 id="counter">10:00</h4></div>
+<script type="text/javascript">
+var minute=9;
+var second=60;
+setInterval(function(){
+if(minute==0 && second==1){
+document.getElementById("counter").innerHTML="00:00";
+}else{
+second--;
+if(second==0){
+minute--;
+second=60;
+if(minute==0){
+minute=minute;}}
+document.getElementById("counter").innerHTML=minute+":"+second;}},1000)</script>
+<h1 align="center" style="color:black;font-size:30px">Voting list</h1>
+<h3>Elections:</h3>
+<p>Parties for voting:<br />
+Kindly select one of the following to vote:</p>
+<form action="voted.html" method="post">
+<img src="C:\Users\febi2\OneDrive\Documents\PROJECTS\PROJECT 1\bjp.gif" alt="bjp" height="20%", width="10%"><br />Bharatiya Janata Party
+<input type="radio" name="party" value="BJP"><br /><br /><br />
+<img src="C:\Users\febi2\OneDrive\Documents\PROJECTS\PROJECT 1\congress.webp" alt="congress" height="20%", width="10%"><br />Congress Party
+<input type="radio" name="party" value="CONGRESS"><br /><br /><br />
+<img src="C:\Users\febi2\OneDrive\Documents\PROJECTS\PROJECT 1\aap.webp" alt="others" height="20%", width="10%"><br />Others
+<input type="radio" name="party" value="OTHERS"><br /><br /><br />
+<input type="submit" value="SUBMIT"></form></body></html>
+
+
