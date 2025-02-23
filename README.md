@@ -1,2 +1,10 @@
-# a_simple_website_based_on_online_voting_system_using_html_and_css
-The objective is to create an easy method using HTML and CSS to use a platform for conducting elections and make sure the voting process is trustworthy and accessible for all voters.
+#A simple website based on online voting system using html and css
+
+This project is a simple online voting system built using HTML and CSS. It provides a secure and accessible platform for conducting elections, ensuring a transparent and user-friendly voting experience for all voters.
+
+Technologies Used:
+-HTML (Structure of the web pages).
+-CSS (Styling and layout design).
+
+Contact:
+Github- https://github.com/febisarju
