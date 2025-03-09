@@ -1,4 +1,4 @@
-# VoteHub: A Simple Online Voting Webpage
+# VoteHub: Secure Online Voting System
 
 This project is a simple online voting system built using HTML and CSS. It provides a secure and accessible platform for conducting elections, ensuring a transparent and user-friendly voting experience for all voters.
 
